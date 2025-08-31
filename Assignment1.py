@@ -56,7 +56,6 @@ def search_employee(employees):
         print("Invalid ID! Please enter a number.")
 
 def main_menu():
-    # Initialize with some sample employees
     employees = {
         101: Employee(101, 'Sujal', 22, 'HR', 50000),
         102: Employee(102, 'Ram', 32, 'IT', 60000),
@@ -84,3 +83,4 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
+
